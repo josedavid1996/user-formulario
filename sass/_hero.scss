@@ -1,0 +1,15 @@
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media screen and(max-width:900px) {
+  .container {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.seccion__table {
+  overflow-x: auto;
+  h2 {
+    text-align: center;
+  }
+}
+.tabla {
+  min-width: 34.3rem;
+  border-collapse: collapse;
+  border: 1px solid $color-border-grey;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+    0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+  tbody {
+    color: $color-white;
+    background-color: $bg-secundary;
+  }
+}
+table,
+td,
+th {
+  padding: 0.5rem;
+  border-spacing: 0.5rem;
+  text-align: center;
+  border: 1px solid $color-border-grey;
+}

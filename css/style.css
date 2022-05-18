@@ -1,2 +1,148 @@
-html{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0}*,*::after,*::before{-webkit-box-sizing:border-box;box-sizing:border-box}
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 1rem 20px;
+  text-align: center;
+  transition: transform 0.5s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #f9b53a;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  display: inline-block;
+  transition: animation 0.5s ease-in-out;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: center;
+  }
+}
+.formulario {
+  width: 300px;
+  border: 1px solid #acb1c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+}
+.formulario h2 {
+  text-align: center;
+}
+.formulario input:not([type=submit]) {
+  width: 100%;
+  border: 1px solid #acb1c6;
+  padding: 0.75rem 1rem;
+  margin-bottom: 2rem;
+  outline: none;
+  resize: none;
+  border-radius: 1rem;
+  color: #828282;
+  font-size: 1rem;
+}
+.formulario .btn {
+  font-size: 1.2rem;
+  background-color: #1f53ee;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.formulario .btn:hover {
+  background-color: #003ef7;
+}
+
+.form__correcto {
+  display: none;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  background-color: #1f53ee;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+
+.form__incorrecto {
+  display: none;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  background-color: #ff0000;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+
+.seccion__table {
+  overflow-x: auto;
+}
+.seccion__table h2 {
+  text-align: center;
+}
+
+.tabla {
+  min-width: 34.3rem;
+  border-collapse: collapse;
+  border: 1px solid #acb1c6;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+}
+.tabla tbody {
+  color: #fff;
+  background-color: #1f53ee;
+}
+
+table,
+td,
+th {
+  padding: 0.5rem;
+  border-spacing: 0.5rem;
+  text-align: center;
+  border: 1px solid #acb1c6;
+}
+
+.border__incorrecto {
+  border: 2px solid #ff0000 !important;
+}
+
+.border__correcto {
+  border: 2px solid #1f53ee !important;
+}
+
+.is_active {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

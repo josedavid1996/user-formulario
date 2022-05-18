@@ -1,0 +1,15 @@
+.btn {
+  border-radius: 8px;
+  padding: 1rem 20px;
+  text-align: center;
+  transition: transform 0.5s ease;
+  display: inline-block;
+}
+.btn:hover {
+  background: #f9b53a;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  display: inline-block;
+  transition: animation 0.5s ease-in-out;
+}
